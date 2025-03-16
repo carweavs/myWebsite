@@ -1,0 +1,21 @@
+<body class="bg-gray-100 p-6">
+
+
+ <div class="container mx-auto text-center">
+   <h1 class="text-4xl font-bold text-primary">What Kind of Angry Are You?</h1>
+   <p class="text-lg text-gray-700">Movie Recs When Your Angry </p>
+  
+   <div class="mt-4">
+     <img src="https://hcgart.com/cdn/shop/products/APPROVED_MarkoManev_KillBill_1of1_Ani.gif?v=1665057995" alt="Your Image" class="w-64 h-auto mx-auto rounded-lg shadow-lg">
+     <img src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="Your Image" class="w-64 h-auto mx-auto rounded-lg shadow-lg">
+     <p class="text-lg text-gray-700">"Those of you lucky enough to have your lives, take them with you. However, leave the limbs you've lost. They belong to me now". </p>
+   </div>
+
+
+   <button class="btn btn-primary mt-6">Home Page</button>
+ </div>
+
+
+</body>
+
+
