@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- DaisyUI plugin -->
+    <script>
+      tailwind.config = {
+        plugins: [require('daisyui')]
+      }
+    </script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Container for content -->
+    <div class="max-w-4xl mx-auto p-6">
+
+        <!-- Header with DaisyUI class -->
+        <h1 class="text-4xl font-bold text-center text-gray-600 mb-6">
+            Movie Recommendations Recommended For You
+        </h1>
+
+        <!-- Text paragraph with DaisyUI class -->
+        <p class="text-xl text-gray-700 mb-4">How are you feeling?</p>
+
+        <!-- Happy Button -->
+        <!-- Happy Button (Yellow) -->
+        <a href="happy.html" class="btn bg-yellow-400 text-white hover:bg-yellow-500">Happy</a>
+
+        <!-- Sad Button (Blue) -->
+        <a href="sad.html" class="btn bg-blue-500 text-white hover:bg-blue-600">Sad</a>
+
+        <!-- Angry Button (Red) -->
+        <a href="angry.html" class="btn bg-red-500 text-white hover:bg-red-600">Angry</a>
+
+    </div>
+
+</body>
+</html>
